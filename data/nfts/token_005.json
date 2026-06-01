@@ -1,0 +1,41 @@
+{
+  "name": "OnchainMetadataSeaDrop #5",
+  "description": "OnchainMetadataSeaDrop is a fully on-chain 512-piece collection with base64-encoded metadata stored via SSTORE2. This is mock metadata for token #5.",
+  "image": "ipfs://bafybeigdyrmockcidplaceholderxxxxxxxxxxxxxxxxxxxxxxxx/5.png",
+  "external_url": "https://example.com/token/5",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Charcoal"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Bronze"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Laser"
+    },
+    {
+      "trait_type": "Mouth",
+      "value": "Smirk"
+    },
+    {
+      "trait_type": "Headwear",
+      "value": "Halo"
+    },
+    {
+      "trait_type": "Accessory",
+      "value": "Badge"
+    },
+    {
+      "trait_type": "Rarity",
+      "value": "Rare"
+    },
+    {
+      "display_type": "number",
+      "trait_type": "Edition",
+      "value": 5
+    }
+  ]
+}

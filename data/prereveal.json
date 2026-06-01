@@ -1,0 +1,11 @@
+{
+  "name": "OnchainMetadataSeaDrop (Unrevealed)",
+  "description": "This OnchainMetadataSeaDrop token has not been revealed yet. Metadata and artwork are revealed on-chain once the collection is unveiled.",
+  "image": "ipfs://bafybeigdyrmockcidplaceholderxxxxxxxxxxxxxxxxxxxxxxxx/prereveal.png",
+  "attributes": [
+    {
+      "trait_type": "Status",
+      "value": "Unrevealed"
+    }
+  ]
+}
