@@ -1,0 +1,25 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+fs_permissions = [{ access = "read", path = "./" }]
+optimizer = true
+optimizer_runs = 1000
+via_ir = true
+remappings = [
+  "seadrop/=lib/seadrop/src/",
+  "utility-contracts/=lib/seadrop/lib/utility-contracts/src/",
+  # Use SeaDrop's bundled OpenZeppelin v4.7.0 (pragma ^0.8.0) so Base64 is
+  # compatible with SeaDrop's hard `=0.8.17` pin. The standalone
+  # lib/openzeppelin-contracts is v5.6.1 (^0.8.20) and conflicts.
+  "openzeppelin-contracts/=lib/seadrop/lib/openzeppelin-contracts/contracts/",
+  "solmate/=lib/solmate/src/"
+]
+
+[rpc_endpoints]
+base = "https://mainnet.base.org"
+base-sepolia = "https://sepolia.base.org"
+
+[etherscan]
+base = { key = "${ETHERSCAN_API_KEY}", url = "https://api.basescan.org/api" }
+base-sepolia = { key = "${ETHERSCAN_API_KEY}", url = "https://api-sepolia.basescan.org/api" }
