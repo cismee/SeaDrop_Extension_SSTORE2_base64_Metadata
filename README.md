@@ -2,7 +2,7 @@
 
 OnchainMetadataSeaDrop is an NFT collection that stores base64-encoded metadata directly on the blockchain using SSTORE2 for gas-efficient storage. The collection integrates with SeaDrop for marketplace functionality and creator fee enforcement.
 
-Originally created for and implemented via (Fauvtoshi)[https://opensea.io/collection/fauvtoshi]
+Originally created for and implemented w/ [Fauvtoshi](https://opensea.io/collection/fauvtoshi)
 
 > FAUV•TOSHI is an experimental generative fauvist onchain NFT collection linking to fully inscribed Bitcoin Ordinals, with contract-level metadata Base. Each token renders a 3600×3600px recursive SVG outputting an immutable print-ready 300DPI PNG.
 >
